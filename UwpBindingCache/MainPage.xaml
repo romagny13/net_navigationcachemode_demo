@@ -1,0 +1,24 @@
+﻿<Page
+    x:Class="UwpBindingCache.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UwpBindingCache"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+            <Button Click="OnGoPageOne">Page 1</Button>
+            <Button Click="OnGoPageTwo">Page 2</Button>
+            <Button Click="OnGoBack">Back</Button>
+            <Button Click="OnGoForward">Forward</Button>
+        </StackPanel>
+        <Frame x:Name="MainFrame" Grid.Row="1"></Frame>
+
+    </Grid>
+</Page>

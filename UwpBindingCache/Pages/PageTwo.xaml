@@ -1,0 +1,30 @@
+﻿<Page
+    x:Class="UwpBindingCache.Pages.PageTwo"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UwpBindingCache.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackPanel Background="Blue" Padding="40">
+        <TextBlock Text="Page 2" Style="{StaticResource HeaderTextBlockStyle}"></TextBlock>
+        <RichTextBlock  Margin="0,6">
+            <Paragraph>
+                With NavigationCacheMode disabled :
+            </Paragraph>
+            <Paragraph>
+                - Page (and View model)
+                <Bold>created each time</Bold>
+            </Paragraph>
+            <Paragraph>
+                - Page
+                <Bold>navigate each time</Bold>
+            </Paragraph>
+        </RichTextBlock>
+        <TextBlock x:Name="CreatedTextBlock" Margin="0,6"></TextBlock>
+        <TextBlock Text="{Binding Time}" Margin="0,6"></TextBlock>
+        <ListView ItemsSource="{Binding Items}" Margin="0,6"></ListView>
+        <TextBox Margin="0,6"></TextBox>
+    </StackPanel>
+</Page>
