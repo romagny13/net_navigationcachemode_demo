@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>487a2275-9c5a-4011-8bc2-0dbd6573702f</PackageIdentityName>
     <PackageIdentityPublisher>CN=romag</PackageIdentityPublisher>
-    <IntermediateOutputPath>c:\users\romag\documents\visual studio 2015\Projects\UwpBindingCache\UwpBindingCache\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\romag\documents\visual studio 2015\Projects\UwpBindingCache\UwpBindingCache\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -25,16 +25,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="c:\users\romag\documents\visual studio 2015\Projects\UwpBindingCache\UwpBindingCache\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\romag\documents\visual studio 2015\Projects\UwpBindingCache\UwpBindingCache\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-11-11T22:22:21.315</Modified>
+      <Modified>2016-11-12T01:54:07.081</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="c:\users\romag\documents\visual studio 2015\Projects\UwpBindingCache\UwpBindingCache\bin\x86\Debug\UwpBindingCache.exe">
+    <AppxPackagedFile Include="C:\Users\romag\documents\visual studio 2015\Projects\UwpBindingCache\UwpBindingCache\bin\x86\Debug\UwpBindingCache.exe">
       <PackagePath>entrypoint\UwpBindingCache.exe</PackagePath>
-      <Modified>2016-11-11T22:22:20.990</Modified>
+      <Modified>2016-11-12T01:54:06.756</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\romag\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -448,59 +448,59 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2015-07-22T21:11:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\romag\documents\visual studio 2015\Projects\UwpBindingCache\UwpBindingCache\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\romag\documents\visual studio 2015\Projects\UwpBindingCache\UwpBindingCache\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2016-11-11T21:24:24.481</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\romag\documents\visual studio 2015\Projects\UwpBindingCache\UwpBindingCache\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\romag\documents\visual studio 2015\Projects\UwpBindingCache\UwpBindingCache\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2015-09-20T15:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\romag\documents\visual studio 2015\Projects\UwpBindingCache\UwpBindingCache\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\romag\documents\visual studio 2015\Projects\UwpBindingCache\UwpBindingCache\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T15:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\romag\documents\visual studio 2015\Projects\UwpBindingCache\UwpBindingCache\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\romag\documents\visual studio 2015\Projects\UwpBindingCache\UwpBindingCache\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T15:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\romag\documents\visual studio 2015\Projects\UwpBindingCache\UwpBindingCache\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\romag\documents\visual studio 2015\Projects\UwpBindingCache\UwpBindingCache\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T15:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\romag\documents\visual studio 2015\Projects\UwpBindingCache\UwpBindingCache\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\romag\documents\visual studio 2015\Projects\UwpBindingCache\UwpBindingCache\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T15:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\romag\documents\visual studio 2015\Projects\UwpBindingCache\UwpBindingCache\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\romag\documents\visual studio 2015\Projects\UwpBindingCache\UwpBindingCache\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T15:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\romag\documents\visual studio 2015\Projects\UwpBindingCache\UwpBindingCache\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\romag\documents\visual studio 2015\Projects\UwpBindingCache\UwpBindingCache\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T15:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\romag\documents\visual studio 2015\Projects\UwpBindingCache\UwpBindingCache\bin\x86\Debug\UwpBindingCache.xr.xml">
+    <AppxPackagedFile Include="C:\Users\romag\documents\visual studio 2015\Projects\UwpBindingCache\UwpBindingCache\bin\x86\Debug\UwpBindingCache.xr.xml">
       <PackagePath>UwpBindingCache.xr.xml</PackagePath>
-      <Modified>2016-11-11T22:14:18.706</Modified>
+      <Modified>2016-11-12T01:40:12.771</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2016-09-10T10:58:47.127</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\romag\documents\visual studio 2015\Projects\UwpBindingCache\UwpBindingCache\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\romag\documents\visual studio 2015\Projects\UwpBindingCache\UwpBindingCache\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-11-11T22:18:26.794</Modified>
+      <Modified>2016-11-12T01:52:03.804</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\romag\documents\visual studio 2015\Projects\UwpBindingCache\UwpBindingCache\bin\x86\Debug\Core\UwpBindingCache.exe">
+    <AppxPackagedFile Include="C:\Users\romag\documents\visual studio 2015\Projects\UwpBindingCache\UwpBindingCache\bin\x86\Debug\Core\UwpBindingCache.exe">
       <PackagePath>UwpBindingCache.exe</PackagePath>
-      <Modified>2016-11-11T22:22:21.309</Modified>
+      <Modified>2016-11-12T01:54:07.076</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

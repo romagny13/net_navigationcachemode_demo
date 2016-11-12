@@ -9,23 +9,24 @@
 
     <StackPanel Background="Blue" Padding="40">
         <TextBlock Text="Page 2" Style="{StaticResource HeaderTextBlockStyle}"></TextBlock>
-        <RichTextBlock  Margin="0,6">
+        <RichTextBlock  Margin="0,12">
             <Paragraph>
                 With NavigationCacheMode disabled :
             </Paragraph>
             <Paragraph>
                 - Page (and View model)
-                <Bold>created each time</Bold>
+                <Bold>created each time</Bold>. Page is not cached, require to save states (on leaving the page with "on navigated from") and restore states next time page will be visited.
             </Paragraph>
             <Paragraph>
                 - Page
                 <Bold>navigate each time</Bold>
             </Paragraph>
         </RichTextBlock>
-        <TextBlock x:ConnectionId='1' x:Name="CreatedTextBlock" Margin="0,6"></TextBlock>
-        <TextBlock Text="{Binding Time}" Margin="0,6"></TextBlock>
-        <ListView ItemsSource="{Binding Items}" Margin="0,6"></ListView>
-        <TextBox Margin="0,6"></TextBox>
+        <TextBlock x:ConnectionId='1' x:Name="CreatedTextBlock" Margin="0,12"></TextBlock>
+        <TextBlock Text="{Binding CreatedTime}"  Margin="0,12"></TextBlock>
+        <TextBlock Text="{Binding NavigatedTime}"  Margin="0,12"></TextBlock>
+        <ListView x:ConnectionId='2' x:Name="ListView" ItemsSource="{Binding Items}" Margin="0,12"></ListView>
+        <TextBox x:ConnectionId='3' x:Name="TextBox" Margin="0,12"></TextBox>
     </StackPanel>
 </Page>
 

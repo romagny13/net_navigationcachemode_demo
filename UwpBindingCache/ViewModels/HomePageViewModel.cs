@@ -6,7 +6,7 @@ using UwpBindingCache.Model;
 
 namespace UwpBindingCache.ViewModels
 {
-    public class PageTwoViewModel : Observable
+    public class HomePageViewModel : Observable
     {
         private string _createdTime;
         public string CreatedTime
@@ -22,7 +22,6 @@ namespace UwpBindingCache.ViewModels
             set { SetProperty(ref _navigatedTime, value); }
         }
 
-
         private ObservableCollection<Item> _items;
         public ObservableCollection<Item> Items
         {
@@ -33,8 +32,8 @@ namespace UwpBindingCache.ViewModels
         private IMyService _myService;
 
         // or dependency injection
-        public PageTwoViewModel(): this(new MyService()) { }
-        public PageTwoViewModel(IMyService myService)
+        public HomePageViewModel(): this(new MyService()) { }
+        public HomePageViewModel(IMyService myService)
         {
             _myService = myService;
 
@@ -56,6 +55,7 @@ namespace UwpBindingCache.ViewModels
         {
             NavigatedTime = "Navigated " + DateTime.Now.ToString("HH:mm:ss");
         }
-
     }
+
+
 }

@@ -13,7 +13,7 @@
             <RowDefinition />
         </Grid.RowDefinitions>
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
-            <Button x:ConnectionId='2'                    >Page 1</Button>
+            <Button x:ConnectionId='2'                     >Home</Button>
             <Button x:ConnectionId='3'                    >Page 2</Button>
             <Button x:ConnectionId='4'                 >Back</Button>
             <Button x:ConnectionId='5'                    >Forward</Button>

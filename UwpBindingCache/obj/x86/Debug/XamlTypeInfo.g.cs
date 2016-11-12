@@ -136,8 +136,8 @@ namespace UwpBindingCache.UwpBindingCache_XamlTypeInfo
             _typeNameTable[0] = "UwpBindingCache.MainPage";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[3] = "UwpBindingCache.Pages.PageOne";
-            _typeNameTable[4] = "UwpBindingCache.ViewModels.PageOneViewModel";
+            _typeNameTable[3] = "UwpBindingCache.Pages.HomePage";
+            _typeNameTable[4] = "UwpBindingCache.ViewModels.HomePageViewModel";
             _typeNameTable[5] = "UwpBindingCache.Model.Observable";
             _typeNameTable[6] = "Object";
             _typeNameTable[7] = "UwpBindingCache.Pages.PageTwo";
@@ -147,8 +147,8 @@ namespace UwpBindingCache.UwpBindingCache_XamlTypeInfo
             _typeTable[0] = typeof(global::UwpBindingCache.MainPage);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[3] = typeof(global::UwpBindingCache.Pages.PageOne);
-            _typeTable[4] = typeof(global::UwpBindingCache.ViewModels.PageOneViewModel);
+            _typeTable[3] = typeof(global::UwpBindingCache.Pages.HomePage);
+            _typeTable[4] = typeof(global::UwpBindingCache.ViewModels.HomePageViewModel);
             _typeTable[5] = typeof(global::UwpBindingCache.Model.Observable);
             _typeTable[6] = typeof(global::System.Object);
             _typeTable[7] = typeof(global::UwpBindingCache.Pages.PageTwo);
@@ -188,8 +188,8 @@ namespace UwpBindingCache.UwpBindingCache_XamlTypeInfo
         }
 
         private object Activate_0_MainPage() { return new global::UwpBindingCache.MainPage(); }
-        private object Activate_3_PageOne() { return new global::UwpBindingCache.Pages.PageOne(); }
-        private object Activate_4_PageOneViewModel() { return new global::UwpBindingCache.ViewModels.PageOneViewModel(); }
+        private object Activate_3_HomePage() { return new global::UwpBindingCache.Pages.HomePage(); }
+        private object Activate_4_HomePageViewModel() { return new global::UwpBindingCache.ViewModels.HomePageViewModel(); }
         private object Activate_7_PageTwo() { return new global::UwpBindingCache.Pages.PageTwo(); }
         private object Activate_8_PageTwoViewModel() { return new global::UwpBindingCache.ViewModels.PageTwoViewModel(); }
 
@@ -218,15 +218,15 @@ namespace UwpBindingCache.UwpBindingCache_XamlTypeInfo
                 xamlType = new global::UwpBindingCache.UwpBindingCache_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 3:   //  UwpBindingCache.Pages.PageOne
+            case 3:   //  UwpBindingCache.Pages.HomePage
                 userType = new global::UwpBindingCache.UwpBindingCache_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_3_PageOne;
+                userType.Activator = Activate_3_HomePage;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 4:   //  UwpBindingCache.ViewModels.PageOneViewModel
+            case 4:   //  UwpBindingCache.ViewModels.HomePageViewModel
                 userType = new global::UwpBindingCache.UwpBindingCache_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("UwpBindingCache.Model.Observable"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
@@ -262,15 +262,15 @@ namespace UwpBindingCache.UwpBindingCache_XamlTypeInfo
         }
 
 
-        private object get_0_PageOne_ViewModel(object instance)
+        private object get_0_HomePage_ViewModel(object instance)
         {
-            var that = (global::UwpBindingCache.Pages.PageOne)instance;
+            var that = (global::UwpBindingCache.Pages.HomePage)instance;
             return that.ViewModel;
         }
-        private void set_0_PageOne_ViewModel(object instance, object Value)
+        private void set_0_HomePage_ViewModel(object instance, object Value)
         {
-            var that = (global::UwpBindingCache.Pages.PageOne)instance;
-            that.ViewModel = (global::UwpBindingCache.ViewModels.PageOneViewModel)Value;
+            var that = (global::UwpBindingCache.Pages.HomePage)instance;
+            that.ViewModel = (global::UwpBindingCache.ViewModels.HomePageViewModel)Value;
         }
         private object get_1_PageTwo_ViewModel(object instance)
         {
@@ -290,11 +290,11 @@ namespace UwpBindingCache.UwpBindingCache_XamlTypeInfo
 
             switch (longMemberName)
             {
-            case "UwpBindingCache.Pages.PageOne.ViewModel":
-                userType = (global::UwpBindingCache.UwpBindingCache_XamlTypeInfo.XamlUserType)GetXamlTypeByName("UwpBindingCache.Pages.PageOne");
-                xamlMember = new global::UwpBindingCache.UwpBindingCache_XamlTypeInfo.XamlMember(this, "ViewModel", "UwpBindingCache.ViewModels.PageOneViewModel");
-                xamlMember.Getter = get_0_PageOne_ViewModel;
-                xamlMember.Setter = set_0_PageOne_ViewModel;
+            case "UwpBindingCache.Pages.HomePage.ViewModel":
+                userType = (global::UwpBindingCache.UwpBindingCache_XamlTypeInfo.XamlUserType)GetXamlTypeByName("UwpBindingCache.Pages.HomePage");
+                xamlMember = new global::UwpBindingCache.UwpBindingCache_XamlTypeInfo.XamlMember(this, "ViewModel", "UwpBindingCache.ViewModels.HomePageViewModel");
+                xamlMember.Getter = get_0_HomePage_ViewModel;
+                xamlMember.Setter = set_0_HomePage_ViewModel;
                 break;
             case "UwpBindingCache.Pages.PageTwo.ViewModel":
                 userType = (global::UwpBindingCache.UwpBindingCache_XamlTypeInfo.XamlUserType)GetXamlTypeByName("UwpBindingCache.Pages.PageTwo");

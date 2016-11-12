@@ -1,6 +1,5 @@
 c:\users\romag\documents\visual studio 2015\Projects\UwpBindingCache\UwpBindingCache\bin\x86\Debug\App.xbf
 c:\users\romag\documents\visual studio 2015\Projects\UwpBindingCache\UwpBindingCache\bin\x86\Debug\MainPage.xbf
-c:\users\romag\documents\visual studio 2015\Projects\UwpBindingCache\UwpBindingCache\bin\x86\Debug\Pages\PageOne.xbf
 c:\users\romag\documents\visual studio 2015\Projects\UwpBindingCache\UwpBindingCache\bin\x86\Debug\Pages\PageTwo.xbf
 c:\users\romag\documents\visual studio 2015\Projects\UwpBindingCache\UwpBindingCache\bin\x86\Debug\UwpBindingCache.xr.xml
 c:\users\romag\documents\visual studio 2015\Projects\UwpBindingCache\UwpBindingCache\bin\x86\Debug\UwpBindingCache.exe
@@ -118,18 +117,14 @@ c:\users\romag\documents\visual studio 2015\Projects\UwpBindingCache\UwpBindingC
 c:\users\romag\documents\visual studio 2015\Projects\UwpBindingCache\UwpBindingCache\obj\x86\Debug\App.g.cs
 c:\users\romag\documents\visual studio 2015\Projects\UwpBindingCache\UwpBindingCache\obj\x86\Debug\MainPage.g.i.cs
 c:\users\romag\documents\visual studio 2015\Projects\UwpBindingCache\UwpBindingCache\obj\x86\Debug\MainPage.g.cs
-c:\users\romag\documents\visual studio 2015\Projects\UwpBindingCache\UwpBindingCache\obj\x86\Debug\Pages\PageOne.g.i.cs
-c:\users\romag\documents\visual studio 2015\Projects\UwpBindingCache\UwpBindingCache\obj\x86\Debug\Pages\PageOne.g.cs
 c:\users\romag\documents\visual studio 2015\Projects\UwpBindingCache\UwpBindingCache\obj\x86\Debug\Pages\PageTwo.g.i.cs
 c:\users\romag\documents\visual studio 2015\Projects\UwpBindingCache\UwpBindingCache\obj\x86\Debug\Pages\PageTwo.g.cs
 c:\users\romag\documents\visual studio 2015\Projects\UwpBindingCache\UwpBindingCache\obj\x86\Debug\XamlTypeInfo.g.cs
 c:\users\romag\documents\visual studio 2015\Projects\UwpBindingCache\UwpBindingCache\obj\x86\Debug\App.xaml
 c:\users\romag\documents\visual studio 2015\Projects\UwpBindingCache\UwpBindingCache\obj\x86\Debug\MainPage.xaml
-c:\users\romag\documents\visual studio 2015\Projects\UwpBindingCache\UwpBindingCache\obj\x86\Debug\Pages\PageOne.xaml
 c:\users\romag\documents\visual studio 2015\Projects\UwpBindingCache\UwpBindingCache\obj\x86\Debug\Pages\PageTwo.xaml
 c:\users\romag\documents\visual studio 2015\Projects\UwpBindingCache\UwpBindingCache\obj\x86\Debug\App.xbf
 c:\users\romag\documents\visual studio 2015\Projects\UwpBindingCache\UwpBindingCache\obj\x86\Debug\MainPage.xbf
-c:\users\romag\documents\visual studio 2015\Projects\UwpBindingCache\UwpBindingCache\obj\x86\Debug\Pages\PageOne.xbf
 c:\users\romag\documents\visual studio 2015\Projects\UwpBindingCache\UwpBindingCache\obj\x86\Debug\Pages\PageTwo.xbf
 c:\users\romag\documents\visual studio 2015\Projects\UwpBindingCache\UwpBindingCache\obj\x86\Debug\XamlSaveStateFile.xml
 c:\users\romag\documents\visual studio 2015\Projects\UwpBindingCache\UwpBindingCache\obj\x86\Debug\UwpBindingCache.exe
@@ -202,3 +197,8 @@ c:\users\romag\documents\visual studio 2015\Projects\UwpBindingCache\UwpBindingC
 c:\users\romag\documents\visual studio 2015\Projects\UwpBindingCache\UwpBindingCache\obj\x86\Debug\resources.en-us.resfiles
 c:\users\romag\documents\visual studio 2015\Projects\UwpBindingCache\UwpBindingCache\obj\x86\Debug\resources.en-us.resfiles.intermediate
 c:\users\romag\documents\visual studio 2015\Projects\UwpBindingCache\UwpBindingCache\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\romag\documents\visual studio 2015\Projects\UwpBindingCache\UwpBindingCache\bin\x86\Debug\Pages\HomePage.xbf
+C:\Users\romag\documents\visual studio 2015\Projects\UwpBindingCache\UwpBindingCache\obj\x86\Debug\Pages\HomePage.g.i.cs
+C:\Users\romag\documents\visual studio 2015\Projects\UwpBindingCache\UwpBindingCache\obj\x86\Debug\Pages\HomePage.g.cs
+C:\Users\romag\documents\visual studio 2015\Projects\UwpBindingCache\UwpBindingCache\obj\x86\Debug\Pages\HomePage.xaml
+C:\Users\romag\documents\visual studio 2015\Projects\UwpBindingCache\UwpBindingCache\obj\x86\Debug\Pages\HomePage.xbf

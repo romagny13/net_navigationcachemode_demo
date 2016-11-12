@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using UwpBindingCache.ViewModels;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Navigation;
@@ -6,24 +7,25 @@ using Windows.UI.Xaml.Navigation;
 namespace UwpBindingCache.Pages
 {
 
-    public sealed partial class PageOne : Page
+    public sealed partial class HomePage : Page
     {
-        public PageOne()
+        public HomePage()
         {
             this.InitializeComponent();
             this.NavigationCacheMode = NavigationCacheMode.Enabled;
 
-            ViewModel = new PageOneViewModel();
+            ViewModel = new HomePageViewModel();
             DataContext = ViewModel;
 
-            CreatedTextBlock.Text = "created " + DateTime.Now.ToString("HH:mm:ss");
+            CreatedTextBlock.Text = "Create page at " + DateTime.Now.ToString("HH:mm:ss");
         }
 
-        public PageOneViewModel ViewModel { get; set; }
+        public HomePageViewModel ViewModel { get; set; }
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
             ViewModel.LoadData();
         }
+
     }
 }

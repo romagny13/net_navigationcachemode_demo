@@ -2,7 +2,8 @@
 <Roots >
   <Roots.PropertyPathNames>
     <RootPropertyPathName Name="Items" />
-    <RootPropertyPathName Name="Time" />
+    <RootPropertyPathName Name="NavigatedTime" />
+    <RootPropertyPathName Name="CreatedTime" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application">
@@ -59,7 +60,7 @@
       <RootProperty Name="Inlines" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />
-    <RootType FullName="UwpBindingCache.Pages.PageOne" />
+    <RootType FullName="UwpBindingCache.Pages.HomePage" />
     <RootType FullName="UwpBindingCache.Pages.PageTwo" />
   </Roots.RootTypes>
 </Roots>
